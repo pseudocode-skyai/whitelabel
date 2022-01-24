@@ -4,9 +4,10 @@ $(window).on('load', function() {
             // $('.dropdown-help').css('display','block');
             $('.dropdown-help').attr('style', 'display: block !important');
         }
-        if (frappe.boot.whitelabel_setting.logo_width) {
-            $('.app-logo').css('width',frappe.boot.whitelabel_setting.logo_width+'px');
-        }
+//        if (frappe.boot.whitelabel_setting.logo_width) {
+//            $('.app-logo').css('width',frappe.boot.whitelabel_setting.logo_width+'px');
+//        }
+	$('.app-logo').css('width',50+'px');
         if (frappe.boot.whitelabel_setting.logo_height) {
             $('.app-logo').css('height',frappe.boot.whitelabel_setting.logo_height+'px');
         }
